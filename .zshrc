@@ -10,15 +10,7 @@ export ZSH="/home/ergodic/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 
 ZSH_THEME="awesomepanda"
-#ZSH_THEME="bullet-train"
 
-#ZSH_THEME="powerlevel9k/powerlevel9k"
-# command line 左邊想顯示的內容
-#POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs) # <= left prompt 設了 "dir"
-# command line 右邊想顯示的內容
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(time) # <= right prompt 設了 "time"
-
-# Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
 # If set to an empty array, this variable will have no effect.
