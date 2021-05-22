@@ -30,9 +30,15 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 ```
 curl
 ```bash
-$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 *Note: This runs the `install.sh` in oh-my-zsh. Check all the details in [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)*
+
+### Installing the Powerline fonts
+Some themes needs the [Powerline fonts](https://github.com/powerline/fonts) to appear correctly.
+```bash
+sudo apt-get install fonts-powerline
+```
 
 ### Windows
 Some features in a theme may not be able to appear correctly in Windows. This uses theme `awesomepanda`, which can work correctly in Windows.
