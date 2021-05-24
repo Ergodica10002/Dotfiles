@@ -1,7 +1,6 @@
 # Dotfiles
 
-Here is some files for setting the environment of a new computer.
-Install power
+Here are some files for setting the environment of a new computer.
 
 ## Vim
 The `.vimrc` file helps to set the coding environment of VIM.
