@@ -42,6 +42,8 @@ sudo apt-get install fonts-powerline
 This uses theme `agnoster`. I made some changes from default version. See `./Zsh/Ubuntu/agnoster.zsh-theme`
 * Add current time in RPROMPT
 * Remove the machine name in PROMPT
+The terminal looks like this:
+![Ubuntu_agnoster](/Zsh/Ubuntu/Ubuntu_agnoster.png)
 
 ### Windows
 Some features in a theme may not be able to appear correctly in Windows. This uses theme `awesomepanda`, which can work correctly in Windows.
