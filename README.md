@@ -48,7 +48,7 @@ The terminal looks like this:
 ### Windows
 Some features in a theme may not be able to appear correctly in Windows. This uses theme `awesomepanda`, which can work correctly in Windows.
 The terminal looks like this:
-![Windows_terminal_awesomepanda](/Zsh/Windows/Windows_terminal_awesomepanda.png)
+![Windows_terminal_awesomepanda](/Zsh/Windows/Windows_terminal_awesomepanda.png =90x160)
 
 ## GitBash
 `GitBash` is a tool in [Git for Windows](https://gitforwindows.org/). It provides a simple way to use git with Bash environment in Windows besides wsl.
