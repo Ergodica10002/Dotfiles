@@ -44,14 +44,14 @@ This uses theme `agnoster`. I made some changes from default version. See `./Zsh
 * Remove the machine name in PROMPT
 The terminal looks like this:
 <div align=center>
-<img src=/Zsh/Ubuntu/Ubuntu_agnoster.png width=600 height=450 />
+<img src=/Zsh/Ubuntu/Ubuntu_agnoster.png width=640 height=360 />
 </div>
 
 ### Windows
 Some features in a theme may not be able to appear correctly in Windows. This uses theme `awesomepanda`, which can work correctly in Windows.
 The terminal looks like this:
 <div align=center>
-<img src=/Zsh/Windows/Windows_terminal_awesomepanda.png width=600 height=450 />
+<img src=/Zsh/Windows/Windows_terminal_awesomepanda.png width=640 height=360 />
 </div>
 
 ## GitBash
@@ -67,7 +67,7 @@ cp git-prompt.sh /etc/profile.d/git-prompt.sh
 ```
 Compared with default, I delete the host machine name and add the current time. The prompt looks like this:
 <div align=center>
-<img src=/GitBash/GitBash_prompt.png width=600/>
+<img src=/GitBash/GitBash_prompt.png width=640/>
 </div>
 
 ### .bash_profile
