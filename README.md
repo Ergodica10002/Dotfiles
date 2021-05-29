@@ -47,3 +47,24 @@ The terminal looks like this:
 
 ### Windows
 Some features in a theme may not be able to appear correctly in Windows. This uses theme `awesomepanda`, which can work correctly in Windows.
+The terminal looks like this:
+![Windows_terminal_awesomepanda](/Zsh/Windows/Windows_terminal_awesomepanda.png)
+
+## GitBash
+`GitBash` is a tool in [Git for Windows](https://gitforwindows.org/). It provides a simple way to use git with Bash environment in Windows besides wsl.
+
+Install Git for Windows and one can see GitBash in the `Start Menu`
+
+The followig was referenced from [this](https://juejin.cn/post/6844903700775845895).
+### git-prompt.sh
+It is used for me to define the prompt($PS1) in `GitBash`. Copy it into the `/etc/profile.d` directory.
+```bash
+cp git-prompt.sh /etc/profile.d/git-prompt.sh
+```
+Compared with default, I delete the host machine name and add the current time. The prompt looks like this:
+![GitBash_prompt](/GitBash/GitBash_prompt.png)
+### .bash_profile
+It is used for me to add user-defined aliases. Copy it into the home directory in GitBash. 
+```bash
+cp .bash_profile ~/.bash_profile
+```
