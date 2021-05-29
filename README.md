@@ -43,12 +43,19 @@ This uses theme `agnoster`. I made some changes from default version. See `./Zsh
 * Add current time in RPROMPT
 * Remove the machine name in PROMPT
 The terminal looks like this:
-![Ubuntu_agnoster](/Zsh/Ubuntu/Ubuntu_agnoster.png)
+<div align=center>
+<img src=/Zsh/Ubuntu/Ubuntu_agnoster.png width=640 height=360 />
+</div>
+[//]: # (![Ubuntu_agnoster](/Zsh/Ubuntu/Ubuntu_agnoster.png))
 
 ### Windows
 Some features in a theme may not be able to appear correctly in Windows. This uses theme `awesomepanda`, which can work correctly in Windows.
 The terminal looks like this:
-![Windows_terminal_awesomepanda](/Zsh/Windows/Windows_terminal_awesomepanda.png =90x160)
+<div align=center>
+<img src=/Zsh/Windows/Windows_terminal_awesomepanda.png width=640 height=360 />
+</div>
+[//]: # (![Windows_terminal_awesomepanda](/Zsh/Windows/Windows_terminal_awesomepanda.png))
+
 
 ## GitBash
 `GitBash` is a tool in [Git for Windows](https://gitforwindows.org/). It provides a simple way to use git with Bash environment in Windows besides wsl.
@@ -62,7 +69,11 @@ It is used for me to define the prompt($PS1) in `GitBash`. Copy it into the `/et
 cp git-prompt.sh /etc/profile.d/git-prompt.sh
 ```
 Compared with default, I delete the host machine name and add the current time. The prompt looks like this:
-![GitBash_prompt](/GitBash/GitBash_prompt.png)
+<div align=center>
+<img src=/GitBash/GitBash_prompt.png width=640/>
+</div>
+[//]: # (![GitBash_prompt](/GitBash/GitBash_prompt.png))
+
 ### .bash_profile
 It is used for me to add user-defined aliases. Copy it into the home directory in GitBash. 
 ```bash
