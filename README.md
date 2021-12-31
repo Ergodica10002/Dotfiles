@@ -2,6 +2,8 @@
 
 Here are some files for setting the environment of a new computer.
 
+If any error messaage comes like `Not an editor command: ^M`, use vim to open file and set the format correctly by `:set fileformat=unix`.
+
 ## Vim
 The `.vimrc` file helps to set the coding environment of VIM.
 
@@ -38,17 +40,24 @@ Some themes needs the [Powerline fonts](https://github.com/powerline/fonts) to a
 ```bash
 sudo apt-get install fonts-powerline
 ```
+
 ### Ubuntu
 This uses theme `agnoster`. I made some changes from default version. See `./Zsh/Ubuntu/agnoster.zsh-theme`
 * Add current time in RPROMPT
 * Remove the machine name in PROMPT
+Copy the `.zsh-theme` file to `~/.oh-my-zsh/themes/`
+
 The terminal looks like this:
 <div align=center>
 <img src=/Zsh/Ubuntu/Ubuntu_agnoster.png width=640 height=360 />
 </div>
 
 ### Windows
-Some features in a theme may not be able to appear correctly in Windows. This uses theme `awesomepanda`, which can work correctly in Windows.
+Some features in a theme may not be able to appear correctly in Windows. This uses theme `awesomepanda`, which can work correctly in Windows. I made some changes from default version. See `.Zsh/Windows/awesomepanda.zsh-theme`
+* Add current time in RPROMPT
+* Remove the machine name in PROMPT
+Copy the `.zsh-theme` file to `~/.oh-my-zsh/themes/`
+
 The terminal looks like this:
 <div align=center>
 <img src=/Zsh/Windows/Windows_terminal_awesomepanda.png width=640 height=360 />

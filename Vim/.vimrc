@@ -90,3 +90,10 @@ end
 
 " Crontabs must be edited in place
 au BufRead /tmp/crontab* :set backupcopy=yes
+
+" Save backup files in ~/vimtmp/
+set backupdir=~/vimtmp//,.
+set backupdir=~/vimtmp//,.
+
+" Set UNIX fileformat
+set fileformat=unix
