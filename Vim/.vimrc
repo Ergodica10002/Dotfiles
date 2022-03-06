@@ -44,7 +44,7 @@ set ai			" always set autoindenting on
 set viminfo='20,\"50	" read/write a .viminfo file, don't store more
 set showmatch
 
-"set background=dark	" another is 'light'
+set background=dark	" another is 'light'
 
 " VIM 6.0,
 if version >= 600
@@ -85,15 +85,15 @@ if version >= 700
   highlight TabLine    term=bold cterm=bold
   highlight clear TabLineFill
 
-
 end
 
 " Crontabs must be edited in place
 au BufRead /tmp/crontab* :set backupcopy=yes
 
 " Save backup files in ~/vimtmp/
-set backupdir=~/vimtmp//,.
-set backupdir=~/vimtmp//,.
+set backupdir=.backup/,~/.vimtmp/,/tmp/,.
+set directory=.swp/,~/.vimtmp/,/tmp/,.
+set undodir=.undo/,~/.vimtmp/,/tmp/,.
 
 " Set UNIX fileformat
 set fileformat=unix
